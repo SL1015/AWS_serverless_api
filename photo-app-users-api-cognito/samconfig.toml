@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "photo-app-users-api-cognito"
+resolve_s3 = true
+s3_prefix = "photo-app-users-api-cognito"
+region = "eu-north-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
